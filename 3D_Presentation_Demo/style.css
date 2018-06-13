@@ -1,0 +1,54 @@
+
+
+* {
+ 
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.mockup {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  box-shadow: -10px 10px 25px 5px black;
+  transform: rotate3d(45, 20.0, -45.0, 75deg);
+}
+
+.mockup a {
+  display: block;
+}
+
+#mockup_1 {
+  z-index: 4;
+  background: url(p1.jpg);
+  background-size: cover;
+}
+
+#mockup_2 {
+  z-index: 3;
+  background: url(p2.JPG);
+  background-size: cover;
+  top: 50px;
+}
+
+#mockup_3 {
+  z-index: 2;
+  background: url(p3.jpg);
+  background-size: cover;
+  top: 100px;
+}
+
+.shown {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  z-index: 10 !important;
+  left: 50%;
+  margin-left: -75px;
+  top:10vh;
+}
